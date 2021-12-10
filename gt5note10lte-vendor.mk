@@ -18,3 +18,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt5note10lte/proprietary/lib/hw/sensors.vendor.msm8916.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensors.vendor.msm8916.so \
     vendor/samsung/gt5note10lte/proprietary/lib/libsec-ril-dsds.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril-dsds.so \
     vendor/samsung/gt5note10lte/proprietary/lib/libsec-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril.so
+    
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gt5note10lte/proprietary/vendor/lib/libchromatix_sr544_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_common.so \
+    vendor/samsung/gt5note10lte/proprietary/vendor/lib/libchromatix_sr544_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_default_video.so \
+    vendor/samsung/gt5note10lte/proprietary/vendor/lib/libchromatix_sr544_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_panorama.so \
+    vendor/samsung/gt5note10lte/proprietary/vendor/lib/libchromatix_sr544_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_preview.so \
+    vendor/samsung/gt5note10lte/proprietary/vendor/lib/libchromatix_sr544_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_snapshot.so \
+    vendor/samsung/gt5note10lte/proprietary/vendor/lib/libchromatix_sr544_zslshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_zslshot.so \
+    vendor/samsung/gt5note10lte/proprietary/vendor/lib/libmmcamera_silicon_sr544_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_silicon_sr544_eeprom.so \
+    vendor/samsung/gt5note10lte/proprietary/vendor/lib/libmmcamera_sr544.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sr544.so \
+    vendor/samsung/gt5note10lte/proprietary/vendor/lib/libmmcamera_sr200pc20.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sr200pc20.so
